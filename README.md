@@ -7,6 +7,7 @@ Live URL target: `https://mrivaldodestadhiohamzah.github.io/berkarya-untuk-indon
 ## Fitur
 
 - Hero section dengan visual abstrak Indonesia dan teknologi berbasis CSS.
+- Logo Berkarya ID pada navbar dan animasi maskot pada Hero Section.
 - About Program section dengan tiga kartu fitur: Kreativitas, Teknologi, dan Kontribusi.
 - Call To Action section yang jelas, kuat, dan tetap statis.
 - Navbar responsif dengan anchor link ke setiap section.
@@ -21,12 +22,15 @@ Live URL target: `https://mrivaldodestadhiohamzah.github.io/berkarya-untuk-indon
 - CSS3
 - Tanpa JavaScript
 - Tanpa framework
-- Tanpa asset eksternal
+- Asset lokal dari folder `assets`
 
 ## Struktur Folder
 
 ```text
 berkarya-untuk-indonesia/
++-- assets/
++   +-- LogoB.png
++   `-- MaskotB.webm
 +-- index.html
 +-- style.css
 `-- README.md
