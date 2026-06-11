@@ -459,32 +459,35 @@ h3 {
   position: absolute;
   z-index: 5;
   display: inline-flex;
-  min-height: 42px;
+  min-width: 78px;
+  min-height: 34px;
   align-items: center;
   justify-content: center;
   border: 1px solid rgba(197, 32, 49, 0.13);
   border-radius: 999px;
-  padding: 0.5rem 0.85rem;
+  padding: 0.42rem 0.76rem;
   color: var(--red-900);
-  font-size: 0.78rem;
+  font-size: 0.72rem;
   font-weight: 900;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
   background: rgba(255, 255, 255, 0.9);
-  box-shadow: 0 14px 30px rgba(95, 7, 16, 0.11);
+  box-shadow: 0 10px 24px rgba(95, 7, 16, 0.1);
 }
 
 .chip-one {
-  left: 12%;
+  left: 8%;
   top: 18%;
 }
 
 .chip-two {
-  right: 11%;
-  top: 38%;
+  right: 7%;
+  top: 45%;
 }
 
 .chip-three {
-  left: 22%;
-  bottom: 22%;
+  left: 11%;
+  bottom: 31%;
 }
 
 .pixel-grid {
@@ -539,37 +542,6 @@ h3 {
 .orbit-small::after {
   left: 2%;
   bottom: 22%;
-}
-
-.idea-bubble {
-  position: absolute;
-  z-index: 4;
-  display: grid;
-  min-width: 76px;
-  min-height: 48px;
-  place-items: center;
-  border: 1px solid rgba(197, 32, 49, 0.12);
-  border-radius: 999px;
-  color: var(--red-800);
-  font-size: 0.86rem;
-  font-weight: 900;
-  background: rgba(255, 255, 255, 0.9);
-  box-shadow: 0 16px 34px rgba(95, 7, 16, 0.12);
-}
-
-.bubble-one {
-  left: 12%;
-  top: 16%;
-}
-
-.bubble-two {
-  right: 10%;
-  top: 34%;
-}
-
-.bubble-three {
-  left: 22%;
-  bottom: 18%;
 }
 
 .spark {
@@ -1011,30 +983,25 @@ h3 {
   }
 
   .process-chip {
-    min-height: 36px;
-    padding: 0.45rem 0.7rem;
-    font-size: 0.72rem;
+    min-width: 70px;
+    min-height: 32px;
+    padding: 0.38rem 0.62rem;
+    font-size: 0.67rem;
   }
 
   .chip-one {
-    left: 0.9rem;
-    top: 5.2rem;
+    left: 0.85rem;
+    top: 4.6rem;
   }
 
   .chip-two {
     right: 0.8rem;
-    top: 42%;
+    top: 44%;
   }
 
   .chip-three {
-    left: 1rem;
-    bottom: 1rem;
-  }
-
-  .idea-bubble {
-    min-width: 66px;
-    min-height: 42px;
-    font-size: 0.78rem;
+    left: 0.9rem;
+    bottom: 1.2rem;
   }
 
   .mascot-stage {
@@ -1045,12 +1012,8 @@ h3 {
     width: min(88%, 320px);
   }
 
-  .bubble-two {
-    right: 0.75rem;
-  }
-
-  .bubble-three {
-    left: 1.2rem;
+  .process-chip {
+    display: none;
   }
 
   .about {
