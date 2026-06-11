@@ -1,29 +1,29 @@
 # Berkarya untuk Indonesia
 
-Landing page statis untuk test Web Developer Internship dengan tema "Berkarya untuk Indonesia". Halaman ini mengajak generasi muda Indonesia menciptakan karya bermakna melalui kreativitas, teknologi, dan kontribusi nyata.
+Landing page statis untuk test Web Developer Internship dengan tema **"Berkarya untuk Indonesia"**. Proyek ini dibuat untuk Mahreen Indonesia sebagai ajakan bagi generasi muda Indonesia agar berani menciptakan karya bermakna melalui kreativitas, teknologi, dan kontribusi nyata.
 
 Live URL target: `https://mrivaldodestadhiohamzah.github.io/berkarya-untuk-indonesia/`
 
-## Features
+## Fitur
 
-- Hero section emosional dengan ilustrasi CSS-only.
-- About program section dengan tiga feature card: Kreativitas, Teknologi, dan Kontribusi.
-- Call to action section yang kuat dan responsif.
-- Navbar sederhana tanpa JavaScript.
-- Desain red-white modern dengan pattern dan dekorasi CSS-only.
-- Fully responsive untuk desktop, tablet, Android, dan iOS.
-- SEO dasar dan struktur HTML semantik.
-- Siap di-host sebagai website statis di GitHub Pages.
+- Hero section dengan visual abstrak Indonesia dan teknologi berbasis CSS.
+- About Program section dengan tiga kartu fitur: Kreativitas, Teknologi, dan Kontribusi.
+- Call To Action section yang jelas, kuat, dan tetap statis.
+- Navbar responsif dengan anchor link ke setiap section.
+- Tema merah-putih elegan dengan pattern geometris, gradient, dan dekorasi CSS-only.
+- Layout responsif untuk desktop, tablet, dan mobile.
+- Struktur HTML semantik, meta description, dan kontras teks yang nyaman dibaca.
+- Siap di-host sebagai website statis melalui GitHub Pages.
 
-## Technologies Used
+## Teknologi yang Digunakan
 
 - HTML5
 - CSS3
-- No JavaScript
-- No framework
-- No external assets
+- Tanpa JavaScript
+- Tanpa framework
+- Tanpa asset eksternal
 
-## Folder Structure
+## Struktur Folder
 
 ```text
 berkarya-untuk-indonesia/
@@ -32,13 +32,13 @@ berkarya-untuk-indonesia/
 `-- README.md
 ```
 
-## How to Run Locally
+## Cara Menjalankan Secara Lokal
 
-1. Clone atau download project ini.
-2. Buka folder project.
+1. Clone atau unduh project ini.
+2. Masuk ke folder project.
 3. Buka `index.html` langsung di browser.
 
-Alternatif dengan local server sederhana:
+Alternatif menggunakan local server sederhana:
 
 ```bash
 python -m http.server 8000
@@ -46,7 +46,7 @@ python -m http.server 8000
 
 Lalu buka `http://localhost:8000`.
 
-## How to Deploy to GitHub Pages
+## Cara Deploy ke GitHub Pages
 
 1. Buat repository GitHub bernama `berkarya-untuk-indonesia`.
 2. Push file project ke branch `main`.
